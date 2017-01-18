@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Continental</string>
+    <string name="app_name">ContiNav</string>
     <string name="office">Bureau</string>
     <string name="meeting">Réunion</string>
     <string name="POI">Points d'intérêts</string>
