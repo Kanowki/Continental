@@ -16,7 +16,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button_office"
         android:layout_marginTop="40dp"
-        android:id="@+id/button_meeting" />
+        android:id="@+id/button_meeting"
+        android:onClick="onOfficeClick"/>
 
     <Button
         android:text="@string/POI"
@@ -24,7 +25,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="37dp"
         android:id="@+id/button_poi"
-        android:layout_below="@+id/button_meeting" />
+        android:layout_below="@+id/button_meeting"
+        android:onClick="onPosClick"/>
 
     <Button
         android:text="@string/Around_me"
@@ -32,7 +34,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:id="@+id/button_aroundme"
-        android:layout_below="@+id/button_poi" />
+        android:layout_below="@+id/button_poi"
+        android:onClick="onPosClick"/>
 
     <Button
         android:text="@string/office"
