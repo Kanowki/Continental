@@ -42,4 +42,13 @@
         android:layout_marginTop="84dp"
         android:id="@+id/loginBtn" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/continental_logo"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="67dp"
+        android:layout_above="@+id/passwordLogin"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>
