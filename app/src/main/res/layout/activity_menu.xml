@@ -42,5 +42,5 @@
         android:id="@+id/button_office"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:onClick="onOfficeClick"/>
+        android:onClick="onMeetingClick"/>
 </RelativeLayout>

@@ -13,8 +13,8 @@ public class MenuActivity extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
     }
 
-    protected void onOfficeClick(View view) {
-        Intent intent = new Intent(this, BureauActivity.class);
+    protected void onMeetingClick(View view) {
+        Intent intent = new Intent(this, ReunionActivity.class);
         startActivity(intent);
     }
 }

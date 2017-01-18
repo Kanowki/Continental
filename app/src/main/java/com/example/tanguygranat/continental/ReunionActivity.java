@@ -10,12 +10,12 @@ import android.view.View;
  * Created by tanguy.granat on 18/01/2017.
  */
 
-public class BureauActivity extends AppCompatActivity {
+public class ReunionActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.bureau_activity);
+        setContentView(R.layout.reunion_activity);
     }
 
     protected void onPosClick(View view) {
