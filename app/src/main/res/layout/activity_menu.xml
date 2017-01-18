@@ -16,7 +16,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button_office"
         android:layout_marginTop="40dp"
-        android:onClick="openActivity"
         android:id="@+id/button_meeting" />
 
     <Button
@@ -42,5 +41,6 @@
         android:layout_marginTop="62dp"
         android:id="@+id/button_office"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="onOfficeClick"/>
 </RelativeLayout>
