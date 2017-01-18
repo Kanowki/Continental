@@ -17,4 +17,9 @@ public class MenuActivity extends AppCompatActivity {
         Intent intent = new Intent(this, BureauActivity.class);
         startActivity(intent);
     }
+
+    protected void onPosClick(View view) {
+        Intent intent = new Intent(this, MapActivity.class);
+        startActivity(intent);
+    }
 }
