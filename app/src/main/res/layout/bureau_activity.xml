@@ -13,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="254dp"
         app:srcCompat="@drawable/reunion"
-        android:id="@+id/imageView1" />
+        android:id="@+id/imageView1"
+        android:onClick="onPosClick" />
 
     <TextView
         android:text="Salle X"
@@ -27,7 +28,8 @@
         android:layout_width="match_parent"
         android:layout_height="170dp"
         app:srcCompat="@drawable/geoloc"
-        android:id="@+id/imageView3" />
+        android:id="@+id/imageView3"
+        android:onClick="onPosClick"/>
 
     <TextView
         android:text="Voir la position"
