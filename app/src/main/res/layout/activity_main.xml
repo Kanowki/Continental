@@ -21,7 +21,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="106dp"
         android:id="@+id/mailLogin"
-        android:hint="Adresse email" />
+        android:hint="Adresse email"
+        android:textColor="@android:color/white" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -32,7 +33,10 @@
         android:id="@+id/passwordLogin"
         android:hint="Mot de passe"
         android:layout_below="@+id/mailLogin"
-        android:layout_alignStart="@+id/mailLogin" />
+        android:layout_alignStart="@+id/mailLogin"
+        android:textColor="@android:color/white"
+        android:singleLine="false"
+        android:selectAllOnFocus="false" />
 
     <Button
         android:text="Connexion"
@@ -42,7 +46,16 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="84dp"
         android:id="@+id/loginBtn"
-        android:onClick="onLoginClick"/>
+        android:onClick="onLoginClick"
+        android:elevation="24dp"
+        android:typeface="normal"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:background="@android:color/holo_orange_dark"
+        android:outlineProvider="paddedBounds"
+        tools:shadowRadius="30"
+        android:textColor="@color/color_accent_inverse" />
 
     <ImageView
         android:layout_width="wrap_content"
