@@ -14,7 +14,7 @@
     <view
         app:mapPath="asset://map_bundle.zip"
         app:mapSecretCode="0"
-        app:mapHash="m4a8e26c2043b0339f44f024adff6dcd47c9d2e7b"
+        app:mapHash="ma10a386909f58fb12f8bbde9c3111c46077f485d"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         class="com.visioglobe.visiomoveessential.VMEMapView"
