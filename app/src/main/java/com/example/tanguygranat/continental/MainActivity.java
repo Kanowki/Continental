@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onPosClick(View view) {
         Intent intent = new Intent(this, MapActivity.class);
         startActivity(intent);
+
     }
 
 }

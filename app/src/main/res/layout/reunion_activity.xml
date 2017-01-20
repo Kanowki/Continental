@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        app:srcCompat="@drawable/reunion"
+        android:id="@+id/imageView1"
+        android:onClick="onPosClick" />
+
+    <TextView
+        android:text="Salle X"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center" 
+        android:textSize="30sp"
+        android:id="@+id/textView1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        app:srcCompat="@drawable/geoloc"
+        android:id="@+id/imageView3"
+        android:onClick="onPosClick"/>
+    
+
+    <TextView
+        android:text="Voir la position"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/textView" />
+
+
+</LinearLayout>
