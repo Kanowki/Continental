@@ -30,7 +30,6 @@
         app:srcCompat="@drawable/geoloc"
         android:id="@+id/imageView3"
         android:onClick="onPosClick"/>
-    
 
     <TextView
         android:text="Voir la position"
