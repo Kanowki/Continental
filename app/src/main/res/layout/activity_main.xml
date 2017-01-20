@@ -24,7 +24,6 @@
         android:layout_marginTop="106dp"
         android:id="@+id/mailLogin"
         android:hint="Adresse email"
-        android:textColor="@android:color/white"
         android:backgroundTint="@color/button_color_disabled_inverse"
         android:background="@color/cardview_light_background" />
 
@@ -38,7 +37,6 @@
         android:hint="Mot de passe"
         android:layout_below="@+id/mailLogin"
         android:layout_alignStart="@+id/mailLogin"
-        android:textColor="@android:color/white"
         android:singleLine="false"
         android:selectAllOnFocus="false"
         android:background="@color/button_color_disabled_inverse"
