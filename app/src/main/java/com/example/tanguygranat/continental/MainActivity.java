@@ -1,14 +1,9 @@
 package com.example.tanguygranat.continental;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.View;
-
-
-/**
- * Created by tanguy.granat on 18/01/2017.
- */
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,10 +13,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    protected void onPosClick(View view) {
-        Intent intent = new Intent(this, MapActivity.class);
+    protected void onLoginClick(View view) {
+        Intent intent = new Intent(this, MenuActivity.class);
         startActivity(intent);
-
     }
-
 }

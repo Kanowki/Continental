@@ -1,26 +1,20 @@
 package com.example.tanguygranat.continental;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.View;
 
-
-/**
- * Created by tanguy.granat on 18/01/2017.
- */
-
-public class ReunionActivity extends AppCompatActivity {
+public class MenuActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.reunion_activity);
+        setContentView(R.layout.activity_menu);
     }
 
-    protected void onPosClick(View view) {
-        Intent intent = new Intent(this, MapActivity.class);
+    protected void onMeetingClick(View view) {
+        Intent intent = new Intent(this, ReunionActivity.class);
         startActivity(intent);
     }
-
 }
