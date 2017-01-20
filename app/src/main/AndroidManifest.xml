@@ -17,6 +17,7 @@
         </activity>
         <activity android:name=".ReunionActivity" />
         <activity android:name=".MapActivity" />
+        <activity android:name=".BureauActivity"/>
         <activity android:name=".MenuActivity"></activity>
     </application>
 

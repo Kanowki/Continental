@@ -26,5 +26,4 @@ public class MapActivity extends AppCompatActivity {
         VMEMapView mapView = (VMEMapView) findViewById(R.id.mapView);
         mapView.loadMap();
     }
-
 }

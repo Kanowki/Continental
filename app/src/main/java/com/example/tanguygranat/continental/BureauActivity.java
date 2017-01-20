@@ -7,19 +7,18 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
-
 /**
- * Created by tanguy.granat on 18/01/2017.
+ * Created by tanguy.granat on 20/01/2017.
  */
 
-public class ReunionActivity extends AppCompatActivity {
+public class BureauActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.reunion_activity);
+        setContentView(R.layout.bureau_activity);
         Spinner dropdown = (Spinner)findViewById(R.id.spinner1);
-        String[] items = new String[]{"Salle X", "Salle Y", "Salle Z"};
+        String[] items = new String[]{"Bureau 1", "Bureau 2", "Bureau 3"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, items);
         dropdown.setAdapter(adapter);
     }
@@ -28,5 +27,4 @@ public class ReunionActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MapActivity.class);
         startActivity(intent);
     }
-
 }
