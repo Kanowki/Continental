@@ -39,7 +39,8 @@
         android:textColor="@android:color/white"
         android:singleLine="false"
         android:selectAllOnFocus="false"
-        android:background="@color/button_color_disabled_inverse" />
+        android:background="@color/button_color_disabled_inverse"
+        android:fontFamily="sans-serif" />
 
     <Button
         android:text="Connexion"
