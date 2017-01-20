@@ -4,4 +4,12 @@
     <string name="meeting">Réunion</string>
     <string name="POI">Points d\'intérêts</string>
     <string name="Around_me">Autour de moi</string>
+    <string-array name="filter">
+        <item>Salles</item>
+        <item>Bureaux</item>
+        <item>Toilettes</item>
+        <item>Escaliers</item>
+        <item>Ascenseurs</item>
+    </string-array>
+    <string name="mapSearchHint">Rechercher</string>
 </resources>

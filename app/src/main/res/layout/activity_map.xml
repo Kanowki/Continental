@@ -11,7 +11,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="462dp">
+        android:layout_height="469dp">
         <view
             app:mapPath="asset://map_bundle.zip"
             app:mapSecretCode="0" app:mapHash="ma10a386909f58fb12f8bbde9c3111c46077f485d"
@@ -26,5 +26,24 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/spinner"
+            android:layout_marginStart="16dp"
+            android:hint="@string/mapSearchHint" />
+
+        <Spinner
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:entries="@array/filter"
+            android:layout_width="50dp"
+            android:layout_alignBaseline="@+id/editText"
+            android:layout_alignBottom="@+id/editText"
+            android:layout_alignParentStart="true" />
     </RelativeLayout>
 </LinearLayout>

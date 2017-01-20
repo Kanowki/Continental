@@ -21,6 +21,7 @@
 
     <Button
         android:text="@string/Around_me"
+        android:onClick="toMap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
@@ -40,6 +41,7 @@
 
     <Button
         android:text="@string/POI"
+        android:onClick="toMap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
