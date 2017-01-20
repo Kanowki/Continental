@@ -22,7 +22,8 @@
         android:layout_marginTop="106dp"
         android:id="@+id/mailLogin"
         android:hint="Adresse email"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/button_color_disabled_inverse" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -40,7 +41,7 @@
 
     <Button
         android:text="Connexion"
-        android:layout_width="120dp"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/passwordLogin"
         android:layout_centerHorizontal="true"

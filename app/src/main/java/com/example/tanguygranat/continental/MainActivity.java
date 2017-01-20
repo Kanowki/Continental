@@ -16,5 +16,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onLoginClick(View view) {
         Intent intent = new Intent(this, ReunionActivity.class);
         startActivity(intent);
+
     }
 }
