@@ -1,43 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical"
-    android:gravity="center_horizontal"
-    android:weightSum="1">
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/continental_bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tanguygranat.continental.MainActivity">
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="106dp"
+        android:id="@+id/mailLogin"
+        android:hint="Adresse email"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_marginTop="38dp"
+        android:id="@+id/passwordLogin"
+        android:hint="Mot de passe"
+        android:layout_below="@+id/mailLogin"
+        android:layout_alignStart="@+id/mailLogin"
+        android:textColor="@android:color/white"
+        android:singleLine="false"
+        android:selectAllOnFocus="false" />
+
+    <Button
+        android:text="Connexion"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp"
+        android:id="@+id/loginBtn"
+        android:onClick="onLoginClick"
+        android:elevation="0dp"
+        android:background="@android:color/holo_orange_dark"
+        android:outlineProvider="paddedBounds"
+        tools:shadowRadius="30"
+        android:textSize="14sp"
+        android:textColor="@color/button_color_disabled_inverse" />
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="254dp"
-        app:srcCompat="@drawable/reunion"
-        android:id="@+id/imageView1"
-        android:onClick="onPosClick" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/continental_logo"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="67dp"
+        android:layout_above="@+id/passwordLogin"
+        android:layout_alignParentStart="true" />
 
-    <TextView
-        android:text="Salle X"
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:gravity="center" 
-        android:textSize="30sp"
-        android:id="@+id/textView1" />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="170dp"
-        app:srcCompat="@drawable/geoloc"
-        android:id="@+id/imageView3"
-        android:onClick="onPosClick"/>
-
-    <TextView
-        android:text="Voir la position"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:textSize="30sp"
-        android:id="@+id/textView" />
-
-
-</LinearLayout>
+</RelativeLayout>
