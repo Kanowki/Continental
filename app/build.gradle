@@ -21,7 +21,7 @@ android {
 
 repositories {
     flatDir {
-        dir 'C:\\Users\\tanguy.granat\\AndroidStudioProjects\\Continental\\app\\libs'
+        dir 'C:\\Users\\etienne.raby\\AndroidStudioProjects\\Continental\\app\\libs'
     }
 }
 
